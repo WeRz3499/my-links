@@ -7,37 +7,88 @@
   - theme-dark: Forces dark theme
 -->
 
-<html class="theme-dark" lang="en">
+<html class="theme-dark" lang="fr">
   <!-- Update`class="theme-auto" with your preference -->
 
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0B1120" />
 
     <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
-    <title>CALITECH - Contacts</title>
+    <title>CALITECH | Réseaux, Sécurité &amp; Cybersécurité NC</title>
     <link rel="icon" type="image/x-icon" href="/images/avatar.svg" />
+    <link rel="apple-touch-icon" href="/images/avatar.png" />
     <!-- Update this with your own favicon -->
 
     <!-- Meta Description - Write a description (150-160 characters recommended) -->
     <meta
       name="description"
-      content="CALITECH – Société de services informatiques 🇳🇨
-Installation réseau • Infogérance • Cybersécurité
-Gestion de domaines • Emails professionnels
-Outils numériques • Support technique
-
-Votre partenaire IT local pour des solutions fiables, sécurisées et adaptées aux entreprises."
+      content="CALITECH, expert IT en Nouvelle-Calédonie (NC) : réseaux, sécurité informatique, cybersécurité, systèmes et agents IA sur mesure pour les entreprises calédoniennes."
     />
 
     <!-- Keywords -->
-    <meta name="keywords" content="your name, industry, and specialties" />
+    <meta
+      name="keywords"
+      content="CALITECH, réseaux NC, sécurité NC, cybersécurité NC, système NC, agent IA, services informatiques, infogérance, Nouvelle-Calédonie, Nouméa"
+    />
 
     <!-- Canonical URL - Helps prevent duplicate content issues -->
-    <meta rel="canonical" href="https://links.calitech.nc" />
+    <link rel="canonical" href="https://links.calitech.nc" />
 
     <!-- Author Information -->
-    <meta name="author" content="Your Name" />
+    <meta name="author" content="CALITECH" />
+
+    <!-- Open Graph / Social Sharing Previews -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="CALITECH" />
+    <meta property="og:url" content="https://links.calitech.nc" />
+    <meta
+      property="og:title"
+      content="CALITECH | Réseaux, Sécurité &amp; Cybersécurité NC"
+    />
+    <meta
+      property="og:description"
+      content="Expert IT en Nouvelle-Calédonie (NC) : réseaux, sécurité informatique, cybersécurité, systèmes et agents IA pour les entreprises calédoniennes."
+    />
+    <meta
+      property="og:image"
+      content="https://links.calitech.nc/images/avatar.png"
+    />
+    <meta property="og:locale" content="fr_FR" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="CALITECH | Réseaux, Sécurité &amp; Cybersécurité NC"
+    />
+    <meta
+      name="twitter:description"
+      content="Expert IT en Nouvelle-Calédonie (NC) : réseaux, sécurité informatique, cybersécurité, systèmes et agents IA pour les entreprises calédoniennes."
+    />
+    <meta
+      name="twitter:image"
+      content="https://links.calitech.nc/images/avatar.png"
+    />
+
+    <!-- Structured Data (LocalBusiness) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "CALITECH",
+        "url": "https://links.calitech.nc",
+        "image": "https://links.calitech.nc/images/avatar.png",
+        "description": "Société de services informatiques en Nouvelle-Calédonie : réseaux, sécurité informatique, cybersécurité, systèmes et agents IA, infogérance, noms de domaine et messagerie professionnelle.",
+        "areaServed": "Nouvelle-Calédonie",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Nouméa",
+          "addressCountry": "NC"
+        }
+      }
+    </script>
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/reset.css" />
@@ -51,53 +102,315 @@ Votre partenaire IT local pour des solutions fiables, sécurisées et adaptées 
   </head>
 
   <body>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-blob hero-blob--cyan" aria-hidden="true"></div>
+      <div class="hero-blob hero-blob--green" aria-hidden="true"></div>
+      <div class="container">
+        <div class="column hero-content">
+          <img
+            class="avatar avatar--none hero-logo"
+            src="images/avatar.svg"
+            srcset="images/avatar.svg 2x"
+            alt="Logo CALITECH"
+          />
+          <span class="section-eyebrow"
+            >Expert local en Nouvelle-Calédonie</span
+          >
+          <h1 class="hero-tagline">Cybersécurité et Solution IT</h1>
+          <p class="hero-headline">
+            Avec CALITECH, choisissez
+            <span class="word-rotator">
+              <span class="word-rotator-item">la qualité</span>
+              <span class="word-rotator-item">la cybersécurité</span>
+              <span class="word-rotator-item">un agent IA</span>
+              <span class="word-rotator-item">le réseau</span>
+              <span class="word-rotator-item">le système</span>
+              <span class="word-rotator-item">la technique</span>
+            </span>
+          </p>
+          <p class="hero-sub">
+            <span class="hero-sub-item">Réseaux NC</span>
+            <span class="hero-sub-dot" aria-hidden="true">·</span>
+            <span class="hero-sub-item">Sécurité NC</span>
+            <span class="hero-sub-dot" aria-hidden="true">·</span>
+            <span class="hero-sub-item">Systèmes</span>
+            <span class="hero-sub-dot" aria-hidden="true">·</span>
+            <span class="hero-sub-item">Agents IA</span>
+          </p>
+          <a class="btn-gradient" href="#services">
+            Découvrir nos services
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              aria-hidden="true"
+            >
+              <path
+                d="M6 9l6 6 6-6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <svg
+        class="hero-wave"
+        viewBox="0 0 1440 80"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <path
+          d="M0,32 C240,80 480,0 720,24 C960,48 1200,72 1440,16 L1440,80 L0,80 Z"
+        />
+      </svg>
+    </section>
+
+    <!-- Bio -->
     <div class="container">
       <div class="column">
-        <!--
-              By default, the Avatar is rounded. Use the following:
-              - avatar--rounded: Automatically rounds the image
-              - avatar--soft: Slightly rounds the image
-              - avatar--none: Removes any rounding
+        <div class="glass-card">
+          <p>
+            Prestations de services informatiques en Nouvelle-Calédonie (NC) 🌐
+            Nom de domaine &amp; messagerie professionnelle 🖥️ Réseaux &amp;
+            infrastructure 🔐 Sécurité informatique &amp; cybersécurité 🤖
+            Agents IA sur mesure 🛠️ Infogérance &amp; assistance technique. Nous
+            accompagnons les entreprises calédoniennes dans la mise en place, la
+            gestion et la sécurisation de leurs systèmes et outils numériques.
+          </p>
+        </div>
+      </div>
+    </div>
 
-              Be sure to replace the src with your own image path and update the alt text
-            -->
-        <img
-          class="avatar avatar--rounded"
-          src="images/avatar.svg"
-          srcset="images/avatar.svg 2x"
-          alt="LittleLink"
-        />
+    <!-- Trust -->
+    <section>
+      <div class="container-wide">
+        <div class="section-header">
+          <span class="section-eyebrow">Pourquoi nous choisir</span>
+          <h2 class="section-title">La confiance au cœur de notre métier</h2>
+        </div>
+        <div class="trust-grid">
+          <div class="trust-card">
+            <span class="trust-badge">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M9.5 12l1.8 1.8L14.5 10"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <span class="trust-name">Confidentialité &amp; sécurité</span>
+            <p class="trust-desc">
+              Vos données et celles de vos clients traitées avec la plus grande
+              rigueur.
+            </p>
+          </div>
+          <div class="trust-card">
+            <span class="trust-badge">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                aria-hidden="true"
+              >
+                <circle cx="12" cy="12" r="9" />
+                <path
+                  d="M12 7v5l3.5 2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </span>
+            <span class="trust-name">Réactivité</span>
+            <p class="trust-desc">
+              Une équipe disponible qui intervient rapidement en cas de besoin.
+            </p>
+          </div>
+          <div class="trust-card">
+            <span class="trust-badge">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 21s7-6.5 7-12a7 7 0 1 0-14 0c0 5.5 7 12 7 12z"
+                  stroke-linejoin="round"
+                />
+                <circle cx="12" cy="9" r="2.25" />
+              </svg>
+            </span>
+            <span class="trust-name">Expertise locale</span>
+            <p class="trust-desc">
+              Une équipe basée en Nouvelle-Calédonie, proche de ses clients.
+            </p>
+          </div>
+          <div class="trust-card">
+            <span class="trust-badge">
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                aria-hidden="true"
+              >
+                <path d="M4 14a8 8 0 0 1 16 0" stroke-linecap="round" />
+                <rect x="2.5" y="14" width="4" height="6" rx="1.5" />
+                <rect x="17.5" y="14" width="4" height="6" rx="1.5" />
+              </svg>
+            </span>
+            <span class="trust-name">Disponibilité</span>
+            <p class="trust-desc">
+              Un accompagnement suivi, à l'écoute de vos besoins au quotidien.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Replace with your name or brand -->
-        <h1>
-          <div>CALITECH</div>
-        </h1>
-
-        <!-- Add a short description about yourself or your brand -->
-        <p>
-          Prestations de services informatiques 🌐Nom de domaine & messagerie
-          professionnelle 🖥️ Réseaux & infrastructure 🔐 Sécurité informatique
-          🛠️ Infogérance & assistance technique. Nous accompagnons les
-          entreprises calédoniennes dans la mise en place, la gestion et la
-          sécurisation de leurs outils numériques.
-        </p>
-
-        <!-- All your buttons go here -->
-        <div class="button-stack" role="navigation">
-          <!-- Default LittleLink -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
+    <!-- Services -->
+    <section id="services">
+      <div class="container-wide">
+        <div class="section-header">
+          <span class="section-eyebrow">Ce que nous faisons</span>
+          <h2 class="section-title">Nos services</h2>
+        </div>
+        <div class="services-grid">
+          <div class="service-card">
+            <svg
+              class="service-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
               aria-hidden="true"
-              src="images/icons/littlelink.svg"
-              alt="LittleLink Logo"
-            />LittleLink</a
-          >-->
+            >
+              <rect x="3" y="4" width="18" height="12" rx="2" />
+              <path d="M8 20h8M12 16v4" stroke-linecap="round" />
+              <path d="M7 9h2M7 12h6" stroke-linecap="round" />
+            </svg>
+            <span class="service-name">Réseaux &amp; infrastructure</span>
+            <p class="service-desc">
+              Installation et administration de votre réseau d'entreprise.
+            </p>
+          </div>
+          <div class="service-card">
+            <svg
+              class="service-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6l7-3z"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M9.5 12l1.8 1.8L14.5 10"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span class="service-name">Sécurité informatique</span>
+            <p class="service-desc">
+              Protection de vos systèmes et de vos données sensibles.
+            </p>
+          </div>
+          <div class="service-card">
+            <svg
+              class="service-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-hidden="true"
+            >
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M19.4 13a7.5 7.5 0 0 0 0-2l1.8-1.4-2-3.4-2.1.6a7.6 7.6 0 0 0-1.7-1l-.3-2.2H9.9l-.3 2.2a7.6 7.6 0 0 0-1.7 1l-2.1-.6-2 3.4L5.6 11a7.5 7.5 0 0 0 0 2l-1.8 1.4 2 3.4 2.1-.6a7.6 7.6 0 0 0 1.7 1l.3 2.2h4.2l.3-2.2a7.6 7.6 0 0 0 1.7-1l2.1.6 2-3.4-1.8-1.4z"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span class="service-name">Infogérance &amp; assistance</span>
+            <p class="service-desc">
+              Support technique réactif et maintenance préventive.
+            </p>
+          </div>
+          <div class="service-card">
+            <svg
+              class="service-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-hidden="true"
+            >
+              <rect x="3" y="5" width="18" height="14" rx="2" />
+              <path
+                d="M3 7l9 6 9-6"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span class="service-name">Domaines &amp; emails</span>
+            <p class="service-desc">
+              Gestion de noms de domaine et messagerie professionnelle.
+            </p>
+          </div>
+          <div class="service-card">
+            <svg
+              class="service-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              aria-hidden="true"
+            >
+              <rect x="7" y="7" width="10" height="10" rx="2" />
+              <path
+                d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M19 5l-2 2M5 19l2-2M19 19l-2-2"
+                stroke-linecap="round"
+              />
+            </svg>
+            <span class="service-name">Agent IA</span>
+            <p class="service-desc">
+              Conception et intégration d'agents IA sur mesure pour votre
+              entreprise.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <div class="container">
+      <div class="column">
+        <div class="section-header">
+          <span class="section-eyebrow">Nous contacter</span>
+          <h2 class="section-title">Restons en contact</h2>
+        </div>
+
+        <!-- All your buttons go here. To add a new one: pick a .button-<brand>
+             class from css/brands.css and copy the markup below. -->
+        <div class="button-stack" role="navigation">
           <!-- LinkedIn -->
           <a
             class="button button-linked"
@@ -112,336 +425,6 @@ Votre partenaire IT local pour des solutions fiables, sécurisées et adaptées 
               alt="LinkedIn Logo"
             />Enrich FLEJO | LinkedIn</a
           >
-          <!-- Amazon -->
-          <!--<a
-            class="button button-amazon"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/amazon.svg"
-              alt="Amazon Wishlist Logo"
-            />Amazon Wishlist</a
-          >-->
-
-          <!-- Amazon Music -->
-          <!--<a
-            class="button button-amazon-music"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/amazon-music.svg"
-              alt="Amazon Music Logo"
-            />Listen on Amazon Music</a
-          >-->
-
-          <!-- Apple App Store -->
-          <!--<a
-            class="button button-appstore"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/apple.svg"
-              alt="Apple Logo"
-            />Apple App Store</a
-          >-->
-
-          <!-- Apple Invites -->
-          <!--<a
-            class="button button-invites"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/apple-invites.svg"
-              alt="Apple Invites Logo"
-            />Apple Invites</a
-          >-->
-
-          <!-- Apple Music -->
-          <!--<a
-            class="button button-apple-music"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/apple-music.svg"
-              alt="Apple Music Logo"
-            />Listen on Apple Music</a
-          >-->
-
-          <!-- Apple Music Alternate -->
-          <!--<a
-            class="button button-apple-music-alt"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/apple-music-alt.svg"
-              alt="Apple Music Logo"
-            />Listen on Apple Music</a
-          >-->
-
-          <!-- Apple Podcasts -->
-          <!--<a
-            class="button button-apple-podcasts"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/apple-podcasts.svg"
-              alt="Apple Podcasts Logo"
-            />Listen on Apple Podcasts</a
-          >-->
-
-          <!-- Apple Podcasts Alternate -->
-          <!--<a
-            class="button button-apple-podcasts-alt"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/apple-podcasts-alt.svg"
-              alt="Apple Podcasts Logo"
-            />Listen on Apple Podcasts</a
-          >-->
-
-          <!-- Bandcamp -->
-          <!--<a
-            class="button button-bandcamp"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/bandcamp.svg"
-              alt="Bandcamp Logo"
-            />Bandcamp</a
-          >-->
-
-          <!-- Behance -->
-          <!--<a
-            class="button button-behance"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/behance.svg"
-              alt="Behance Logo"
-            />Behance</a
-          >-->
-
-          <!-- Bluesky -->
-          <!--<a
-            class="button button-bluesky"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/bluesky.svg"
-              alt="Bluesky Logo"
-            />Bluesky</a
-          >-->
-
-          <!-- Bluesky Alt -->
-          <!--<a
-            class="button button-bluesky-alt"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/bluesky-alt.svg"
-              alt="Bluesky Logo"
-            />Bluesky</a
-          >-->
-
-          <!-- Buy Me A Coffee -->
-          <!--<a
-            class="button button-coffee"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/buy-me-a-coffee.svg"
-              alt="Buy Me A Coffee Logo"
-            />Buy Me A Coffee</a
-          >-->
-
-          <!-- Cal.com -->
-          <!--<a
-            class="button button-cal"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/cal.svg"
-              alt="Cal.com Logo"
-            />Schedule with Cal.com</a
-          >-->
-
-          <!-- Calendly -->
-          <!--<a
-            class="button button-calendly"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/calendly.svg"
-              alt="Calendly Logo"
-            />Schedule with Calendly</a
-          >-->
-
-          <!-- Cash App -->
-          <!--<a
-            class="button button-cash-app"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/cash-app-dollar.svg"
-              alt="Cash App Logo"
-            />Cash App</a
-          >-->
-
-          <!-- Dev.to -->
-          <!--<a
-            class="button button-dev-to"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/dev-to.svg"
-              alt="Dev.to Logo"
-            />Dev.to</a
-          >-->
-
-          <!-- Discogs -->
-          <!--<a
-            class="button button-discogs"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/discogs.svg"
-              alt="Discogs Logo"
-            />Discogs</a
-          >-->
-
-          <!-- Discogs Alt -->
-          <!--<a
-            class="button button-discogs-alt"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/discogs-alt.svg"
-              alt="Discogs Logo"
-            />Discogs</a
-          >-->
-
-          <!-- Discord -->
-          <!--<a
-            class="button button-discord"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/discord.svg"
-              alt="Discord Logo"
-            />Discord</a
-          >-->
-
-          <!-- Dribbble -->
-          <!--<a
-            class="button button-dribbble"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/dribbble.svg"
-              alt="Dribbble Logo"
-            />Dribbble</a
-          >-->
-
-          <!-- Etsy -->
-          <!--<a
-            class="button button-etsy"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/etsy.svg"
-              alt="Etsy Logo"
-            />Shop on Etsy</a
-          >-->
-
           <!-- Facebook -->
           <a
             class="button button-faceb"
@@ -472,906 +455,6 @@ Votre partenaire IT local pour des solutions fiables, sécurisées et adaptées 
             />Messenger</a
           >
 
-          <!-- Figma -->
-          <!--<a
-            class="button button-figma"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/figma.svg"
-              alt="Figma Logo"
-            />Figma Community</a
-          >-->
-
-          <!-- Fiverr -->
-          <!--<a
-            class="button button-fiverr"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/fiverr.svg"
-              alt="Fiverr Logo"
-            />Fiverr Gig</a
-          >-->
-
-          <!-- Flickr -->
-          <!--<a
-            class="button button-flickr"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/flickr.svg"
-              alt="Flickr Logo"
-            />Flickr</a
-          >-->
-
-          <!-- GitHub -->
-          <!--<a
-            class="button button-github"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/github.svg"
-              alt="GitHub Logo"
-            />GitHub</a
-          >-->
-
-          <!-- GitLab -->
-          <!--<a
-            class="button button-gitlab"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/gitlab.svg"
-              alt="GitLab Logo"
-            />GitLab</a
-          >-->
-
-          <!-- GoFundMe -->
-          <!--<a
-            class="button button-gofundme"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/gofundme.svg"
-              alt="GoFundMe Logo"
-            />GoFundMe</a
-          >-->
-
-          <!-- Goodreads -->
-          <!--<a
-            class="button button-goodreads"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/goodreads.svg"
-              alt="Goodreads Logo"
-            />Goodreads</a
-          >-->
-
-          <!-- Google Drive -->
-          <!--<a
-            class="button button-google-black"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/google-drive.svg"
-              alt="Google Drive Logo"
-            />View in Google Drive</a
-          >-->
-
-          <!-- Google Play Store -->
-          <!--<a
-            class="button button-playstore"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/google-play.svg"
-              alt="Google Play Store Logo"
-            />Google Play Store</a
-          >-->
-
-          <!-- Google Scholar -->
-          <!--<a
-            class="button button-google-scholar"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/google-scholar.svg"
-              alt="Google Scholar Logo"
-            />Google Scholar</a
-          >-->
-
-          <!-- Hashnode -->
-          <!--<a
-            class="button button-hashnode"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/hashnode.svg"
-              alt="Hashnode Logo"
-            />Hashnode</a
-          >-->
-
-          <!-- Instagram -->
-          <!--<a
-            class="button button-instagram"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/instagram.svg"
-              alt="Instagram Logo"
-            />Instagram</a
-          >-->
-
-          <!-- Kick -->
-          <!--<a
-            class="button button-kick"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/kick.svg"
-              alt="Kick Logo"
-            />Kick</a
-          >-->
-
-          <!-- Kick Alt -->
-          <!--<a
-            class="button button-kick-alt"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/kick-alt.svg"
-              alt="Kick Logo"
-            />Kick</a
-          >-->
-
-          <!-- Kickstarter -->
-          <!--<a
-            class="button button-kickstarter"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/kickstarter.svg"
-              alt="Kickstarter Logo"
-            />Kickstarter</a
-          >-->
-
-          <!-- Kit -->
-          <!--<a
-            class="button button-kit"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/kit.svg"
-              alt="Kit Logo"
-            />Kit</a
-          >-->
-
-          <!-- Ko-fi -->
-          <!--<a
-            class="button button-ko-fi"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/ko-fi.svg"
-              alt="Ko-fi Logo"
-            />Support me on Ko-fi</a
-          >-->
-
-          <!-- Last.fm -->
-          <!--<a
-            class="button button-last-fm"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/last-fm.svg"
-              alt=""
-            />Last.fm</a
-          >-->
-
-          <!-- Letterboxd -->
-          <!--<a
-            class="button button-letterboxd"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/letterboxd.svg"
-              alt=""
-            />Letterboxd</a
-          >-->
-
-          <!-- Line -->
-          <!--<a
-            class="button button-line"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/line.svg"
-              alt="Line Logo"
-            />Line</a
-          >-->
-
-          <!-- Mailchimp -->
-          <!--<a
-            class="button button-mailchimp"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/mailchimp.svg"
-              alt="Mailchimp Logo"
-            />Mailchimp</a
-          >-->
-
-          <!-- Mastodon -->
-          <!--<a
-            class="button button-mastodon"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/mastodon.svg"
-              alt="Mastodon Logo"
-            />Mastodon</a
-          >-->
-
-          <!-- Matrix -->
-          <!--<a
-            class="button button-matrix"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/matrix.svg"
-              alt="Matrix Logo"
-            />Matrix</a
-          >-->
-
-          <!-- Medium -->
-          <!--<a
-            class="button button-medium"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/medium.svg"
-              alt="Medium Logo"
-            />Medium</a
-          >-->
-
-          <!-- Meetup -->
-          <!--<a
-            class="button button-meetup"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/meetup.svg"
-              alt="Meetup Logo"
-            />Meetup</a
-          >-->
-
-          <!-- Meetup Alt -->
-          <!--<a
-            class="button button-meetup-alt"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/meetup-alt.svg"
-              alt="Meetup Logo"
-            />Meetup</a
-          >-->
-
-          <!-- Microsoft Store -->
-          <!--<a
-            class="button button-microsoft"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/microsoft.svg"
-              alt="Microsoft Logo"
-            />Get it from Microsoft</a
-          >-->
-
-          <!-- Notion -->
-          <!--<a
-            class="button button-notion"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/notion.svg"
-              alt="Notion Logo"
-            />Notion</a
-          >-->
-
-          <!-- Obsidian -->
-          <!--<a
-            class="button button-obsidian"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/obsidian.svg"
-              alt="Obsidian Logo"
-            />Obsidian</a
-          >-->
-
-          <!-- OnlyFans -->
-          <!--<a
-            class="button button-onlyfans"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/onlyfans.svg"
-              alt="OnlyFans Logo"
-            />OnlyFans (18+)</a
-          >-->
-
-          <!-- Patreon -->
-          <!--<a
-            class="button button-patreon"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/patreon.svg"
-              alt="Patreon Logo"
-            />Patreon</a
-          >-->
-
-          <!-- PayPal -->
-          <!--<a
-            class="button button-paypal"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/paypal.svg"
-              alt="PayPal Logo"
-            />PayPal</a
-          >-->
-
-          <!-- Pinterest -->
-          <!--<a
-            class="button button-pinterest"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/pinterest.svg"
-              alt="Pinterest Logo"
-            />Pinterest</a
-          >-->
-
-          <!-- Product Hunt -->
-          <!--<a
-            class="button button-product-hunt"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/product-hunt.svg"
-              alt="Product Hunt Logo"
-            />Product Hunt</a
-          >-->
-
-          <!-- Reddit -->
-          <!--<a
-            class="button button-reddit"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/reddit.svg"
-              alt="Reddit Logo"
-            />Reddit</a
-          >-->
-
-          <!-- Shop -->
-          <!--<a
-            class="button button-shop"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/shop.svg"
-              alt="Shop Logo"
-            />Buy with Shop</a
-          >-->
-
-          <!-- Signal -->
-          <!--<a
-            class="button button-signal"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/signal.svg"
-              alt="Signal Logo"
-            />Signal</a
-          >-->
-
-          <!-- Signal Alt -->
-          <!--<a
-            class="button button-signal-alt"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/signal-alt.svg"
-              alt="Signal Logo"
-            />Signal</a
-          >-->
-
-          <!-- Slack -->
-          <!--<a
-            class="button button-slack"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/slack.svg"
-              alt="Slack Logo"
-            />Join Slack</a
-          >-->
-
-          <!-- Snapchat -->
-          <!--<a
-            class="button button-snapchat"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/snapchat.svg"
-              alt="Snapchat Logo"
-            />Snapchat</a
-          >-->
-
-          <!-- SoundCloud -->
-          <!--<a
-            class="button button-soundcloud"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/soundcloud.svg"
-              alt="SoundCloud Logo"
-            />SoundCloud</a
-          >-->
-
-          <!-- Spotify -->
-          <!--<a
-            class="button button-spotify"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/spotify.svg"
-              alt="Spotify Logo"
-            />Listen on Spotify</a
-          >-->
-
-          <!-- Spotify Alt -->
-          <!--<a
-            class="button button-spotify-alt"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/spotify-alt.svg"
-              alt="Spotify Logo"
-            />Listen on Spotify</a
-          >-->
-
-          <!-- Square -->
-          <!--<a
-            class="button button-square"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/square.svg"
-              alt="Square Logo"
-            />Buy with Square</a
-          >-->
-
-          <!-- Stack Overflow -->
-          <!--<a
-            class="button button-stack-overflow"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/stack-overflow.svg"
-              alt="Stack Overflow Logo"
-            />Stack Overflow</a
-          >-->
-
-          <!-- Steam -->
-          <!--<a
-            class="button button-steam"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/steam.svg"
-              alt="Steam Logo"
-            />Steam</a
-          >-->
-
-          <!-- Steam Alt -->
-          <!--<a
-            class="button button-steam-alt"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/steam.svg"
-              alt="Steam Logo"
-            />Steam</a
-          >-->
-
-          <!-- Strava -->
-          <!--<a
-            class="button button-strava"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/strava.svg"
-              alt="Strava Logo"
-            />Strava</a
-          >-->
-
-          <!-- Substack -->
-          <!--<a
-            class="button button-substack"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/substack.svg"
-              alt="Substack Logo"
-            />Substack</a
-          >-->
-
-          <!-- Telegram -->
-          <!--<a
-            class="button button-telegram"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/telegram.svg"
-              alt="Telegram Logo"
-            />Telegram</a
-          >-->
-
-          <!-- Threads -->
-          <!--<a
-            class="button button-threads"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/threads.svg"
-              alt="Threads Logo"
-            />Threads</a
-          >-->
-
-          <!-- Threema -->
-          <!--<a
-            class="button button-threema"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/threema.svg"
-              alt="Threema Logo"
-            />Threema</a
-          >-->
-
-          <!-- TikTok -->
-          <!--<a
-            class="button button-tiktok"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/tiktok.svg"
-              alt="TikTok Logo"
-            />TikTok</a
-          >-->
-
-          <!-- Trello -->
-          <!--<a
-            class="button button-trello"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/trello.svg"
-              alt="Trello Logo"
-            />Trello</a
-          >-->
-
-          <!-- Tumblr -->
-          <!--<a
-            class="button button-tumb"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/tumblr.svg"
-              alt="Tumblr Logo"
-            />Tumblr</a
-          >-->
-
-          <!-- Twitch -->
-          <!--<a
-            class="button button-twitch"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/twitch.svg"
-              alt="Twitch Logo"
-            />Twitch</a
-          >-->
-
-          <!-- Unsplash -->
-          <!--<a
-            class="button button-unsplash"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/unsplash.svg"
-              alt="Unsplash Logo"
-            />Unsplash</a
-          >-->
-
-          <!-- Venmo -->
-          <!--<a
-            class="button button-venmo"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/venmo.svg"
-              alt="Venmo Logo"
-            />Venmo</a
-          >-->
-
-          <!-- Vimeo -->
-          <!--<a
-            class="button button-vimeo"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/vimeo.svg"
-              alt="Vimeo Logo"
-            />Vimeo</a
-          >-->
-
-          <!-- VSCO -->
-          <!--<a
-            class="button button-vsco"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/vsco.svg"
-              alt="VSCO Logo"
-            />VSCO</a
-          >-->
-
           <!-- WhatsApp -->
           <a
             class="button button-whatsapp"
@@ -1387,186 +470,6 @@ Votre partenaire IT local pour des solutions fiables, sécurisées et adaptées 
             />WhatsApp</a
           >
 
-          <!-- WordPress -->
-          <!--<a
-            class="button button-wordpress"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/wordpress.svg"
-              alt="WordPress Logo"
-            />WordPress</a
-          >-->
-
-          <!-- X -->
-          <!--<a
-            class="button button-x"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/x.svg"
-              alt="X Logo"
-            />Follow on X</a
-          >-->
-
-          <!-- YouTube -->
-          <!--<a
-            class="button button-yt"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/youtube.svg"
-              alt="YouTube Logo"
-            />YouTube</a
-          >-->
-
-          <!-- YouTube Alt -->
-          <!--<a
-            class="button button-yt-alt"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/youtube-alt.svg"
-              alt="YouTube Logo"
-            />YouTube</a
-          >-->
-
-          <!-- YouTube Music -->
-          <!--<a
-            class="button button-yt"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/youtube-music.svg"
-              alt="YouTube Music Logo"
-            />Listen on YouTube Music</a
-          >-->
-
-          <!-- Zoom -->
-          <!--<a
-            class="button button-zoom"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/zoom.svg"
-              alt="Zoom Logo"
-            />Join Zoom Webinar</a
-          >-->
-
-          <!-- Generic Blog -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-blog.svg"
-              alt="Blog Icon"
-            />Read our blog</a
-          >-->
-
-          <!-- Generic Calendar -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-calendar.svg"
-              alt="Calendar Icon"
-            />Event RSVP</a
-          >-->
-
-          <!-- Generic Cloud -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-cloud.svg"
-              alt="Cloud Icon"
-            />Download File</a
-          >-->
-
-          <!-- Generic Code -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-code.svg"
-              alt="Code Icon"
-            />View the code</a
-          >-->
-
-          <!-- Generic Computer -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-computer.svg"
-              alt="Computer Icon"
-            />Homelab Setup</a
-          >-->
-
-          <!-- Generic Email -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-email.svg"
-              alt="Email Icon"
-            />Email Us</a
-          >-->
-
           <!-- Generic Email Alt -->
           <a
             class="button button-default"
@@ -1581,161 +484,10 @@ Votre partenaire IT local pour des solutions fiables, sécurisées et adaptées 
               alt="Email Icon"
             />Contactez-moi !</a
           >
-
-          <!-- Generic Homepage -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-homepage.svg"
-              alt="Homepage Icon"
-            />Visit Homepage</a
-          >-->
-
-          <!-- Generic Map -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-map.svg"
-              alt="Map Icon"
-            />Get Directions</a
-          >-->
-
-          <!-- Generic Phone -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-phone.svg"
-              alt="Phone Icon"
-            />Call Us</a
-          >-->
-
-          <!-- Generic Review -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-review.svg"
-              alt="Review Icon"
-            />Leave us a review</a
-          >-->
-
-          <!-- Generic RSS -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-rss.svg"
-              alt="RSS Icon"
-            />RSS Subscribe</a
-          >-->
-
-          <!-- Generic Shopping Bag -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-shopping-bag.svg"
-              alt="Shopping Bag Icon"
-            />Visit Our Shop</a
-          >-->
-
-          <!-- Generic Shopping Tag -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-shopping-tag.svg"
-              alt="Shopping Tag Icon"
-            />10% Discount</a
-          >-->
-
-          <!-- Generic SMS -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-sms.svg"
-              alt="SMS Icon"
-            />Send us a message</a
-          >-->
-
-          <!-- Generic Website -->
-          <!--<a
-            class="button button-default"
-            href="#"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/generic-website.svg"
-              alt="Website Icon"
-            />Visit Website</a
-          >-->
-
-          <!-- LittleLink Extended -->
-          <!--<a
-            class="button button-default"
-            href="https://github.com/sethcottle/littlelink-extended"
-            target="_blank"
-            rel="noopener"
-            role="button"
-            ><img
-              class="icon"
-              aria-hidden="true"
-              src="images/icons/littlelink.svg"
-              alt="LittleLink Logo"
-            />LittleLink Extended</a
-          >-->
         </div>
 
         <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
         <footer>
-          <!--<a href="privacy.html">Privacy Policy</a> |-->
           CALITECH © 2026, Propulsé par Cloudflare à Nouméa.
           <!--<a href="https://littlelink.io" target="_blank" rel="noopener"
             >LittleLink</a
