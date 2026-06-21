@@ -99,6 +99,16 @@
     <!-- <link rel="stylesheet" href="css/brands-extended.css"> -->
     <!-- Learn more at https://github.com/sethcottle/littlelink-extended.
          Remove comments if you've added LittleLink Extended dependencies -->
+
+    <!-- Fallback if JS is disabled: keep .reveal content visible -->
+    <noscript>
+      <style>
+        .reveal {
+          opacity: 1 !important;
+          transform: none !important;
+        }
+      </style>
+    </noscript>
   </head>
 
   <body>
@@ -130,9 +140,9 @@
             </span>
           </p>
           <p class="hero-sub">
-            <span class="hero-sub-item">Réseaux NC</span>
+            <span class="hero-sub-item">Réseaux</span>
             <span class="hero-sub-dot" aria-hidden="true">·</span>
-            <span class="hero-sub-item">Sécurité NC</span>
+            <span class="hero-sub-item">Sécurité</span>
             <span class="hero-sub-dot" aria-hidden="true">·</span>
             <span class="hero-sub-item">Systèmes</span>
             <span class="hero-sub-dot" aria-hidden="true">·</span>
@@ -171,7 +181,7 @@
     <!-- Bio -->
     <div class="container">
       <div class="column">
-        <div class="glass-card">
+        <div class="glass-card reveal">
           <p>
             Prestations de services informatiques en Nouvelle-Calédonie (NC) 🌐
             Nom de domaine &amp; messagerie professionnelle 🖥️ Réseaux &amp;
@@ -187,12 +197,12 @@
     <!-- Trust -->
     <section>
       <div class="container-wide">
-        <div class="section-header">
+        <div class="section-header reveal">
           <span class="section-eyebrow">Pourquoi nous choisir</span>
           <h2 class="section-title">La confiance au cœur de notre métier</h2>
         </div>
         <div class="trust-grid">
-          <div class="trust-card">
+          <div class="trust-card reveal">
             <span class="trust-badge">
               <svg
                 viewBox="0 0 24 24"
@@ -218,7 +228,7 @@
               rigueur.
             </p>
           </div>
-          <div class="trust-card">
+          <div class="trust-card reveal">
             <span class="trust-badge">
               <svg
                 viewBox="0 0 24 24"
@@ -240,7 +250,7 @@
               Une équipe disponible qui intervient rapidement en cas de besoin.
             </p>
           </div>
-          <div class="trust-card">
+          <div class="trust-card reveal">
             <span class="trust-badge">
               <svg
                 viewBox="0 0 24 24"
@@ -261,7 +271,7 @@
               Une équipe basée en Nouvelle-Calédonie, proche de ses clients.
             </p>
           </div>
-          <div class="trust-card">
+          <div class="trust-card reveal">
             <span class="trust-badge">
               <svg
                 viewBox="0 0 24 24"
@@ -287,12 +297,12 @@
     <!-- Services -->
     <section id="services">
       <div class="container-wide">
-        <div class="section-header">
+        <div class="section-header reveal">
           <span class="section-eyebrow">Ce que nous faisons</span>
           <h2 class="section-title">Nos services</h2>
         </div>
         <div class="services-grid">
-          <div class="service-card">
+          <div class="service-card reveal">
             <svg
               class="service-icon"
               viewBox="0 0 24 24"
@@ -310,7 +320,7 @@
               Installation et administration de votre réseau d'entreprise.
             </p>
           </div>
-          <div class="service-card">
+          <div class="service-card reveal">
             <svg
               class="service-icon"
               viewBox="0 0 24 24"
@@ -334,7 +344,7 @@
               Protection de vos systèmes et de vos données sensibles.
             </p>
           </div>
-          <div class="service-card">
+          <div class="service-card reveal">
             <svg
               class="service-icon"
               viewBox="0 0 24 24"
@@ -354,7 +364,7 @@
               Support technique réactif et maintenance préventive.
             </p>
           </div>
-          <div class="service-card">
+          <div class="service-card reveal">
             <svg
               class="service-icon"
               viewBox="0 0 24 24"
@@ -375,7 +385,7 @@
               Gestion de noms de domaine et messagerie professionnelle.
             </p>
           </div>
-          <div class="service-card">
+          <div class="service-card reveal">
             <svg
               class="service-icon"
               viewBox="0 0 24 24"
@@ -400,17 +410,56 @@
       </div>
     </section>
 
+    <!-- Clients -->
+    <section id="clients">
+      <div class="container-wide">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Ils nous font confiance</span>
+          <h2 class="section-title">Nos clients</h2>
+        </div>
+        <div class="clients-grid">
+          <div class="client-card reveal">
+            <img
+              class="client-logo"
+              src="images/clients/trsimulator.jpg"
+              alt="Logo TRSimulator"
+              loading="lazy"
+            />
+            <span class="client-name">TRSimulator</span>
+          </div>
+          <div class="client-card reveal">
+            <img
+              class="client-logo"
+              src="images/clients/vinstattoo.jpg"
+              alt="Logo Vins Tattoo"
+              loading="lazy"
+            />
+            <span class="client-name">Vins Tattoo</span>
+          </div>
+          <div class="client-card reveal">
+            <img
+              class="client-logo"
+              src="images/clients/lateliergeek.jpg"
+              alt="Logo L'Atelier Geek"
+              loading="lazy"
+            />
+            <span class="client-name">L'Atelier Geek</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact -->
     <div class="container">
       <div class="column">
-        <div class="section-header">
+        <div class="section-header reveal">
           <span class="section-eyebrow">Nous contacter</span>
           <h2 class="section-title">Restons en contact</h2>
         </div>
 
         <!-- All your buttons go here. To add a new one: pick a .button-<brand>
              class from css/brands.css and copy the markup below. -->
-        <div class="button-stack" role="navigation">
+        <div class="button-stack reveal" role="navigation">
           <!-- LinkedIn -->
           <a
             class="button button-linked"
@@ -495,5 +544,32 @@
         </footer>
       </div>
     </div>
+
+    <!-- Scroll-reveal: fades sections in as they enter the viewport -->
+    <script>
+      (function () {
+        var items = document.querySelectorAll(".reveal");
+        if (!("IntersectionObserver" in window)) {
+          items.forEach(function (el) {
+            el.classList.add("is-visible");
+          });
+          return;
+        }
+        var observer = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (entry) {
+              if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                observer.unobserve(entry.target);
+              }
+            });
+          },
+          { threshold: 0.15, rootMargin: "0px 0px -40px 0px" },
+        );
+        items.forEach(function (el) {
+          observer.observe(el);
+        });
+      })();
+    </script>
   </body>
 </html>
